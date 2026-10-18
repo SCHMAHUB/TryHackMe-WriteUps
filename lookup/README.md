@@ -1,7 +1,7 @@
 # LOOKUP ROOM TryHackMe
 ### *By tunlp*
 
-![LOOKUP](/screenshots/000_ROOM_NAME.png)
+![LOOKUP](screenshots/000_ROOM_NAME.png)
 
 
 ---
