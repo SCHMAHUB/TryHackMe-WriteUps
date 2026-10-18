@@ -1,0 +1,16 @@
+$ strings /usr/sbin/pwm | grep "@@GLIBC"
+________________________________________
+
+putchar@@GLIBC_2.2.5
+__isoc99_fscanf@@GLIBC_2.7
+puts@@GLIBC_2.2.5
+fclose@@GLIBC_2.2.5
+__stack_chk_fail@@GLIBC_2.4
+pclose@@GLIBC_2.2.5
+snprintf@@GLIBC_2.2.5
+fgetc@@GLIBC_2.2.5
+__libc_start_main@@GLIBC_2.2.5
+popen@@GLIBC_2.2.5
+fopen@@GLIBC_2.2.5
+perror@@GLIBC_2.2.5
+__cxa_finalize@@GLIBC_2.2.5
