@@ -25,7 +25,7 @@ Encuentro la versión vulnerable `1.9.5` de `Bricks`, un Software de construcci�
 Instalo los `requirements.txt` y ejecuto el exploit en `https://bricks.thm`, exitoso abre una shell dónde identifico que soy usuario `apache`.
 ![Shell Apache](screenshots/05_Shell_Apache.png)
 
-Con un `ls` encuentro el `Hidden txt filein a web folder(FLAG)`:
+Con un `ls` encuentro el `Hidden txt file in a web folder(FLAG)`:
 
 ![First Flag](screenshots/06_Flag_One.png)
 
