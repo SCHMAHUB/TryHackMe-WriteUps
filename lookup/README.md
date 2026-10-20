@@ -5,9 +5,6 @@
 
 
 ---
-## INTRODUCCIÓN
-Este *'Room'* es una máquina vulnerable proporcionada por la plataforma TryHackMe para practicar en el ámbito del hacking ético y pentesting. Como *'pista'* nos comenta que debemos practicar nuestras habilidades de enumeración en una *'boot-to-root machine'*, por lo tanto probablemente también nos permita escalar privilegios a Root.
----
 ## Desarrollo
 Para empezar debo arrancar la máquina víctima además de conectar via OpenVPN a la plataforma.
 Tenemos como dato el concepto de 'enumeración' y una IP (10.130.173.23). Para poder descubrir servicios expuestos y conexiones TCP que realiza, utilicé `nmap` para realizar un scan.
