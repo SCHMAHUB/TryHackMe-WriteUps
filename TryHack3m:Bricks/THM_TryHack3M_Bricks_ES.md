@@ -1,4 +1,4 @@
-# TryHack3M: Bricks Heist ROOM
+# TryHack3M: Bricks Heist ROOM | SPANISH ES
 ### by  tunlp
 
 ![Room Logo](./screenshots/00_Room_Logo.png)
