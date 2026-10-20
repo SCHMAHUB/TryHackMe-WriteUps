@@ -1,3 +1,3 @@
 # TRYHACKME WRITEUPS 
 
-![Pwned by tunlp](pwned_tunlp.png)
+![Pwned by tunlp](Pwned_tunlp.png)
