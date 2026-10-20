@@ -1,4 +1,4 @@
-# LOOKUP ROOM TryHackMe
+# LOOKUP ROOM TryHackMe | SPANISH ES
 ### *By tunlp*
 
 ![LOOKUP](./screenshots/000_ROOM_NAME.png)
