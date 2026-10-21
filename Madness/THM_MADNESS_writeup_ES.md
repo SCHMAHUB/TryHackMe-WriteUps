@@ -33,7 +33,7 @@ Los primeros 8 bytes del `hexdump` de la imagen dicen que el formato es `png` au
 PNG=>  89 50 4E 47 0D 0A 1A 0A
 JPEG=> FF D8 FF E0 00 10 1A 4A 
 ```
-Los siguientes 3 bytes en una imagen JPEG corresponden al formato. El último byte `4A` representa la letra `J`; a partir de él los siguientes 3 bytes deben formar la palabra `JFIF` (JPEG File Interchange Format), como una marca registrada que confirma que el archivo es `JPEG`, por lo tanto sustituiré los 11 primeros bytes actuales por los que corresponden a una imagen JPEG. 
+Los siguientes 3 bytes en una imagen JPEG corresponden al formato. El último byte `4A` representa la letra `J`; a partir de él los siguientes 3 bytes deben formar la palabra `JFIF` | `46 49 46` (JPEG File Interchange Format), como una marca registrada que confirma que el archivo es `JPEG`, por lo tanto sustituiré los 11 primeros bytes actuales por los que corresponden a una imagen JPEG. 
 
 ![Sustitución Hexadecimal](./screenshots/07_Hex_Change.png)
 
