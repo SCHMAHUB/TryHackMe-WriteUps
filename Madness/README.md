@@ -33,7 +33,7 @@ The first 8 bytes of the image's `hexdump` say the format is `png` even though i
 PNG=>  89 50 4E 47 0D 0A 1A 0A
 JPEG=> FF D8 FF E0 00 10 1A 4A 
 ```
-The next 3 bytes in a JPEG image correspond to the format. The last byte `4A` represents the letter `J`; starting from it, the next 3 bytes must spell the word `JFIF` (JPEG File Interchange Format), like a registered mark that confirms the file is `JPEG`, so I'll replace the current first 11 bytes with the ones that correspond to a JPEG image. 
+The next 3 bytes in a JPEG image correspond to the format. The last byte `4A` represents the letter `J`; starting from it, the next 3 bytes must spell the word `JFIF` | `46 49 46` (JPEG File Interchange Format), like a registered mark that confirms the file is `JPEG`, so I'll replace the current first 11 bytes with the ones that correspond to a JPEG image. 
 
 ![Hexadecimal Substitution](./screenshots/07_Hex_Change.png)
 
